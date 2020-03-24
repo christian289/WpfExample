@@ -1,0 +1,20 @@
+﻿<Page x:Class="VM_GC_Test.Views.PageA"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      mc:Ignorable="d" 
+      d:DesignHeight="160" d:DesignWidth="190"
+      Title="PageA">
+
+    <Grid Background="AliceBlue">
+        <Button x:Name="BtnGetPageBObject" 
+                Command="{Binding GetObjectCommand}" 
+                Width="150" 
+                Height="100">
+            <TextBlock Text=""
+                       TextWrapping="Wrap"
+                       TextAlignment="Center"/>
+        </Button>
+    </Grid>
+</Page>
